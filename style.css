@@ -1,0 +1,39 @@
+body {
+	color: #333333;
+}
+
+.navbar{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: "Avenir";
+}
+
+.navbar-nav .mr-auto {
+	justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 0.9rem;
+	padding-left: 0.9rem;
+}
+
+.navbar-brand {
+	color: rgba(0,0,0);
+	padding-right: 10%;
+}
+
+#highlight .nav-link {
+	color: #333333;
+}
+
+a {
+	transition: color 0.3s;
+	transition: transform .2s;
+}
+
+#highlight a:hover {
+	border-bottom: 2px solid #4772d9;
+	color: #4772d9;	 
+	padding: 10px;
+	transform: scale(1.1);
+}
